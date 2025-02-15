@@ -1,7 +1,7 @@
 {
   "name": "nest-seq-cli",
   "description": "🚀 Nest-Seq CLI is a powerful command-line tool for scaffolding NestJS projects with Sequelize ORM. It simplifies project setup by generating a fully structured NestJS application with sequelize and Swagger documentation.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Rafael falk @falkrafa",
   "bin": {
     "nest-seq-cli": "./bin/run.js"
