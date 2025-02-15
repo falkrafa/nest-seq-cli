@@ -76,7 +76,7 @@ DESCRIPTION
   Create a new NestJS project with Sequelize
 ```
 
-_See code: [src/commands/create.ts](https://github.com/falkrafa/nest-seq-cli/blob/v1.0.0/src/commands/create.ts)_
+_See code: [src/commands/create.ts](https://github.com/falkrafa/nest-seq-cli/blob/v1.0.1/src/commands/create.ts)_
 
 ## `nest-seq-cli help`
 
@@ -90,7 +90,7 @@ DESCRIPTION
   Show help for Nest-Sequelize CLI commands
 ```
 
-_See code: [src/commands/help.ts](https://github.com/falkrafa/nest-seq-cli/blob/v1.0.0/src/commands/help.ts)_
+_See code: [src/commands/help.ts](https://github.com/falkrafa/nest-seq-cli/blob/v1.0.1/src/commands/help.ts)_
 
 ## `nest-seq-cli plugins`
 
