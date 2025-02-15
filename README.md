@@ -5,7 +5,7 @@
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/nest-seq-cli.svg)](https://npmjs.org/package/nest-seq-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/nest-seq-cli.svg)](https://npmjs.org/package/nest-seq-cli)
-[![License](https://img.shields.io/npm/l/nest-seq-cli.svg)](https://github.com/falkrafa/nest-seq-cli/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
