@@ -44,7 +44,12 @@
   ],
   "homepage": "https://github.com/falkrafa/nest-seq-cli",
   "keywords": [
-    "oclif"
+    "oclif",
+    "nestjs",
+    "sequelize",
+    "cli",
+    "orm",
+    "swagger"
   ],
   "license": "MIT",
   "main": "dist/index.js",
