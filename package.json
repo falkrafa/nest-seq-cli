@@ -1,0 +1,78 @@
+{
+  "name": "nest-seq-cli",
+  "description": "🚀 Nest-Seq CLI is a powerful command-line tool for scaffolding NestJS projects with Sequelize ORM. It simplifies project setup by generating a fully structured NestJS application with sequelize and Swagger documentation.",
+  "version": "0.0.0",
+  "author": "Rafael falk @falkrafa",
+  "bin": {
+    "nest-seq-cli": "./bin/run.js"
+  },
+  "bugs": "https://github.com/falkrafa/nest-seq-cli/issues",
+  "dependencies": {
+    "@oclif/core": "^4.2.6",
+    "@oclif/plugin-help": "^6",
+    "@oclif/plugin-plugins": "^5",
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.4.1",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1",
+    "@oclif/prettier-config": "^0.2.1",
+    "@oclif/test": "^4",
+    "@types/chai": "^4",
+    "@types/figlet": "^1.7.0",
+    "@types/mocha": "^10",
+    "@types/node": "^18",
+    "chai": "^4",
+    "eslint": "^9",
+    "eslint-config-oclif": "^6",
+    "eslint-config-prettier": "^10",
+    "mocha": "^10",
+    "oclif": "^4",
+    "shx": "^0.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "files": [
+    "./bin",
+    "./dist",
+    "./oclif.manifest.json"
+  ],
+  "homepage": "https://github.com/falkrafa/nest-seq-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "oclif": {
+    "bin": "nest-seq-cli",
+    "dirname": "nest-seq-cli",
+    "commands": "./dist/commands",
+    "plugins": [
+      "@oclif/plugin-help",
+      "@oclif/plugin-plugins"
+    ],
+    "topicSeparator": " ",
+    "topics": {
+      "new": {
+        "description": "Create a new NestJS project with Sequelize ORM"
+      }
+    }
+  },
+  "repository": "falkrafa/nest-seq-cli",
+  "scripts": {
+    "build": "shx rm -rf dist && tsc -b",
+    "lint": "eslint",
+    "postpack": "shx rm -f oclif.manifest.json",
+    "posttest": "npm run lint",
+    "prepack": "oclif manifest && oclif readme",
+    "test": "mocha --forbid-only \"test/**/*.test.ts\"",
+    "version": "oclif readme && git add README.md"
+  },
+  "types": "dist/index.d.ts"
+}
