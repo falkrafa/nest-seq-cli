@@ -15,7 +15,7 @@ async function bootstrap() {
   app.useGlobalGuards();
   app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
 
-  if (process.env.NODE_ENV === 'development') {
+  if (process.env.ENV === 'development') {
     const config = new DocumentBuilder()
       .setTitle('API Documentation')
       .setDescription('API Documentation using Swagger')

@@ -22,7 +22,7 @@ const currentEnvFile =
     }),
   ],
 })
-export class AppConfigModule {}`;
+export class ConfigModule {}`;
 
 execSync(`echo "${configModuleContent}" > ${projectName}/src/config/config.module.ts`, { stdio: 'inherit' })
 }

@@ -6,8 +6,8 @@ const configurationTemplate = (projectName: string) => {
   configModuleTemplate(projectName);
 
   const configurationContent = `const config = () => ({
-  port: parseInt(process.env.PORT, 10) || 3007,
-  environment: process.env.NODE_ENV || 'development',
+  port: parseInt(process.env.PORT, 10) || 3000,
+  environment: process.env.ENV || 'development',
   database: {
     query_timeout: process.env.QUERY_TIMEOUT,
     name: process.env.NAME,
